@@ -1,0 +1,144 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, .wrapper {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 17vh;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 13px;
+}
+
+.top1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    padding-left: 17px;
+    padding-top: 6px;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+.search-container {
+    display: flex;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+
+.search-box {
+    width: 670px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid rgb(221, 221, 221);
+    outline: none;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.2);
+}
+
+.icons {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 615px;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+
+.iconright {
+    height: 3vh;
+    cursor: pointer;
+}
+
+.iconleft {
+    margin-left: 20px;
+    margin-top: -2px;
+    color: #4c8bf5;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile-container {
+    display: flex;
+    margin-left: 310px;
+    align-items: center;
+    
+}
+.gridicon {
+    height: 2.5vh;
+    opacity: .6;
+    padding: 3px 20px 0px 0px;
+}
+
+.profileicon {
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.bottom1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 105vh;
+    margin-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+   
+}
+
+.grey {
+    padding-right: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+.leftbot {
+    flex: 14;
+}
+.rightbot {
+    flex: 3;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 490px;
+}
+
+.searchresults {
+    padding-top: 15px;
+    color: grey;
+    font-size: 13px;
+}
+
+.results {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 100;
+}
